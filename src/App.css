@@ -1,38 +1,128 @@
-.App {
+.wrapper {
+  max-width: 700px;
+  margin: 40px auto;
+}
+#all-frame {
+  display: block;
+  padding: 20px;
+  border: 1px solid;
+  border-color: #dadde1;
+  border-radius: 10px;
+  background-image: url(./road.jpg);
+  background-size: 700px;
+  background-repeat: no-repeat;
+}
+.header {
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+  color: #2a2929;
+  border: 1px solid;
+  border-radius: 7px;
+  border-color: #dadde1;
+  background-color: #dadde1;
+  opacity: 0.7;
   text-align: center;
 }
+h1 {
+  font-size: 35px;
+}
+.head {
+  font-size: 18px;
+  font-weight: bolder;
+  list-style-type: none;
+  padding: 0;
+}
+.enter {
+  width: 50%;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  box-shadow: 1px 1px 2px 1px #2a2929;
+  opacity: 0.9;
+  height: 30px;
+  font-size: 20px;
+}
+.enter-button {
+  position: relative;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  left: 16px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  box-shadow: 1px 1px 2px 1px #2a2929;
+  opacity: 0.9;
+  height: 30px;
+  font-size: 20px;
+}
+.enter-button:hover {
+  background-color: #88918f6a;
+}
+.current {
+  position: relative;
+  top: -30px;
+  left: 430px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  box-shadow: 1px 1px 2px 1px #2a2929;
+  opacity: 0.9;
+  height: 30px;
+  font-size: 20px;
+}
+.current:hover {
+  background-color: #88918f6a;
+}
+.first-row {
+  color: #dadde1;
+}
+.main-temperature {
+  margin-top: 30px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.main-temperature img {
+  float: left;
+  width: 64px;
+  height: 64px;
+}
+.main-temperature span {
+  font-size: 24px;
+  font-weight: bolder;
+}
+#temperature {
+  margin-left: 10px;
+  font-size: 54px;
+  line-height: 1;
+}
+.humidity-wind {
+  list-style-type: none;
+  font-size: 18px;
+  margin-top: 30px;
+  padding: 10px;
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+.card {
+  opacity: 0.7;
+  color: #2a2929;
+  text-align: center;
+  font-weight: bolder;
+}
+#source-code {
+  text-decoration: none;
+}
+#sky-up::first-letter {
+  text-transform: capitalize;
+}
+.date-time {
+  font-size: 22px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-temperature .active {
+  color: #dadde1;
+  cursor: default;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#min-temp {
+  opacity: 0.7;
 }
