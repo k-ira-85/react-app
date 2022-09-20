@@ -3,7 +3,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Search from "./Search";
 
-function App() {
+export default function App() {
   <div className="App">
     <div className="container">
       <div className="wrapper">
@@ -19,7 +19,7 @@ function App() {
         <small>
           <a
             id="source-code"
-            href="https://github.com/BilousovaOlena/oh-my-weather"
+            href="https://github.com/BilousovaOlena/react-app"
             target="_blank"
             rel="noreferrer"
           >
@@ -32,5 +32,3 @@ function App() {
     <script src="src/app.js"></script>
   </div>;
 }
-
-export default App;
