@@ -9,7 +9,7 @@ export default function App() {
       <div className="container">
         <div className="wrapper">
           <div className="form" id="all-frame">
-            <Search />
+            <Search cityDefault="Toronto" />
 
             <div className="card weatherDisplay">
               <div className="card-body forecast-card">
@@ -26,7 +26,7 @@ export default function App() {
             >
               Open-sourse code
             </a>
-            by Olena Bilousova
+            &nbsp; by Olena Bilousova
           </small>
         </div>
       </div>
